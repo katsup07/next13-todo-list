@@ -1,4 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Database
+A database needs to be setup in the prisma > schema.prisma file.
+
+## Known Issues
+- The edit todo updates correctly in the database, but the refresh on the client is too quick so an extra reload is needed to display the most recent data. <br/>
+- After updating an todo in the database, the client still continues to use old(cached?) data on the edit page.<br/>
+<br/>
+These issues be fixed in the future.
+<br/>
 
 ## Getting Started
 
