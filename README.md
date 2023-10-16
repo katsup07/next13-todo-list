@@ -6,7 +6,7 @@ A database needs to be setup in the prisma > schema.prisma file. A local MySQL d
 - The edit todo updates correctly in the database, but the refresh on the client is too quick so an extra reload is needed to display the most recent data. <br/>
 - After updating an todo in the database, the client still continues to use old(cached?) data on the edit page.<br/>
 <br/>
-These issues be fixed in the future.
+These issues will be fixed in the future.
 <br/>
 
 ## Getting Started
